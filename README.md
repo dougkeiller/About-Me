@@ -1,4 +1,4 @@
-# Cowork Global Instructions — Doug Keiller (v6, 2026-09-10)
+#Claude Cowork Global Instructions — Doug Keiller (v6, 2026-09-10)
 
 ## Who I am
 Product/strategy consultant, San Diego. Non-coder — I build via delegation, not by writing code myself. Workstreams: Birdwing Health (my venture), Blackford Capital (PE advisory), ILI (EdTech GTM), World Bank PPPRC, plus personal research projects. Each workstream folder has its own CLAUDE.md; these globals apply everywhere and the folder file adds to them. Where they conflict, the folder file wins for that folder.
