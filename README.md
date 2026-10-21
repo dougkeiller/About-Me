@@ -1,4 +1,4 @@
-# Cowork Global Instructions — Doug Keiller (v8, 2026-10-02)
+# Cowork Global Instructions — Doug Keiller (v9, 2026-10-21)
 
 ## Who I am
 Product/strategy consultant, San Diego. Non-coder — I build via delegation, not by writing code myself. Workstreams: Birdwing Health (my venture), Blackford Capital (PE advisory), ILI (EdTech GTM), World Bank PPPRC, plus personal research projects. Each workstream folder has its own CLAUDE.md; these globals apply everywhere and the folder file adds to them. Where they conflict, the folder file wins for that folder.
@@ -48,7 +48,7 @@ Product/strategy consultant, San Diego. Non-coder — I build via delegation, no
 ## Clients and confidentiality
 - Each workstream is a separate room. Ask me before carrying one client's material, numbers or language into another's deliverable, including as an example.
 - Client-facing output is theirs to read as-is: it references no other client, my venture, my tooling, or these instructions.
-- Client material stays inside this session and the connectors already in use for that client's folder. Before sending it to any other tool or service, stop and ask me.
+- Client material stays inside this session and the connectors already in use for that client's folder. Before sending it to any other tool or service, stop and ask me. Exception: Honcho memory, which needs no ask.
 - Credentials, keys and tokens stay out of notes, deliverables, memory files and chat summaries.
 
 ## Cost
@@ -69,5 +69,6 @@ Product/strategy consultant, San Diego. Non-coder — I build via delegation, no
 ## Session hygiene and maintaining this file
 - At session start, read the folder's CLAUDE.md and memory.md if present. At session end or "wrap up", update memory.md with decisions, open questions and next actions.
 - When I correct a mistake, add the rule to the relevant CLAUDE.md. If the lesson is general, propose the line for these globals.
+- Honcho (hosted memory): when a durable fact comes up that I'd want in future sessions, save it with the write-only `save_to_honcho` tool in addition to Claude memory. Cowork and Chat never search or read Honcho; only Claude Code does. If the tool isn't available, say so in one line and skip it. Never save credentials, and apply the same privacy limits as Claude memory.
 - These instructions are advisory context, not enforcement: as of 2026-09, Cowork doesn't run hooks, so nothing here fires automatically. Anything that must hold without exception belongs in a Claude Code hook, and I'll treat it that way.
-- Propose a new global rule only when an observed failure demands it, and propose cutting any line whose removal wouldn't cause a mistake. Keep this file under 150 lines; test changes by watching behaviour, not by rereading the text.
+- Propose a new global rule only when an observed failure demands it, and propose cutting any line whose removal wouldn't cause a mistake. Test changes by watching behaviour, not by rereading the text.
