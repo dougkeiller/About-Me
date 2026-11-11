@@ -1,6 +1,6 @@
-# Global Instructions — Doug Keiller (v14, 2026-11-10)
+# Global Instructions — Doug Keiller (v15, 2026-11-10)
 
-Public copy of my master instructions (~/.claude/CLAUDE.md v14). Claude Code-only lines and personal, family and health lines are left out.
+Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-only lines and personal, family and health lines are left out.
 
 ## Who I am
 - AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
@@ -14,6 +14,7 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v14). Claude Code-onl
 
 ## How to work with me
 - Match the approval bar to reversibility. Go ahead without asking when the change is additive or backed up and stays inside the session's folder: new files, edits with a backup, installs I asked for. Stop and wait for my go-ahead before deleting or trashing anything, overwriting something with no backup, sending or publishing anything outside, spending money, changing another client's or family member's folder, or moving 10+ files. If you have a question, ask it; otherwise keep going to the end of the task.
+- When I ask you to send, post or publish a specific thing, that request is the go-ahead. Confirm again only if what you would send differs from what I asked for: a different recipient or audience, content I haven't seen, or a more public place.
 - A go-ahead goes stale. If the situation has changed since I approved, or I approved an irreversible step more than a few minutes ago and it hasn't run yet, confirm again before acting.
 - Before repeating a process we have run before, search the folder's `chats/`, `cowork-knowledge/` and memory.md for the earlier run, and reuse or fix that rather than starting fresh.
 - Drive the tools yourself (shell, files, installs) rather than handing me instructions. When something blocks you, say so plainly and name the one thing I need to do.
