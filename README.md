@@ -3,7 +3,7 @@
 Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-only lines and personal, family and health lines are left out.
 
 ## Who I am
-- AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
+- Agentic AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
 - Background: founder and product/strategy leader in tech and edtech. Non-coder: I build by delegating, not by writing code. Long-time heavy AI-tools user, so skip AI basics.
 - Workstreams: AI advisory to a private-equity portfolio (main), Birdwing Health (my venture), plus personal research.
 - Laptop: Claude Code for all file-based work, work and personal. Phone and voice: Claude Duet, which can't see the laptop but reaches Google Drive, which mirrors ~/Projects.
