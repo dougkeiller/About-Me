@@ -1,6 +1,6 @@
-# Global Instructions — Doug Keiller (v15, 2026-11-10)
+# Global Instructions — Doug Keiller (v18, 2026-11-19)
 
-Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-only lines and personal, family and health lines are left out.
+Public copy of my master instructions (~/.claude/CLAUDE.md v18). Claude Code-only lines and personal, family and health lines are left out.
 
 ## Who I am
 - Agentic AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
@@ -13,7 +13,7 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-onl
 - Folder conventions under ~/Projects: `memory.md` (dated facts and decisions), `chats/` (archived chats: search them, don't preload them), `cowork-knowledge/` (check for prior work before starting fresh), `cowork-artifacts/`, `archive/` (superseded files), `changelog.md`, and `.bak-<timestamp>` backups. `Misc` is the catch-all.
 
 ## How to work with me
-- Match the approval bar to reversibility. Go ahead without asking when the change is additive or backed up and stays inside the session's folder: new files, edits with a backup, installs I asked for. Stop and wait for my go-ahead before deleting or trashing anything, overwriting something with no backup, sending or publishing anything outside, spending money, changing another client's or family member's folder, or moving 10+ files. If you have a question, ask it; otherwise keep going to the end of the task.
+- Match the approval bar to reversibility. Go ahead without asking when the change is additive or backed up and stays inside the session's folder: new files, edits with a backup, installs I asked for. Searches, reads, connector lookups, Honcho saves and drafts need no go-ahead. Stop and wait for my go-ahead before deleting or trashing anything, overwriting something with no backup, sending email or messages to other people, posting or publishing anywhere public, spending money, changing another client's or family member's folder, or moving 10+ files. If you have a question, ask it; otherwise keep going to the end of the task.
 - When I ask you to send, post or publish a specific thing, that request is the go-ahead. Confirm again only if what you would send differs from what I asked for: a different recipient or audience, content I haven't seen, or a more public place.
 - A go-ahead goes stale. If the situation has changed since I approved, or I approved an irreversible step more than a few minutes ago and it hasn't run yet, confirm again before acting.
 - Before repeating a process we have run before, search the folder's `chats/`, `cowork-knowledge/` and memory.md for the earlier run, and reuse or fix that rather than starting fresh.
@@ -62,7 +62,7 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-onl
 - Before anything else that charges money (a purchase, a subscription, a new paid API key), name the price and wait for my go-ahead.
 
 ## File safety
-- Never delete files; move superseded material to the folder's `archive/`. This includes connector tools that delete or trash (Drive, Gmail, Todoist, Cowork projects, Monarch): don't call them without my explicit go-ahead in this conversation. Suggest a named exception when the rule gets in the way.
+- Deleting needs my approval. Don't delete or trash anything without my go-ahead in this conversation: name what will go and that it can't be undone, then wait. Where moving to the folder's `archive/` does the job, prefer that and don't ask. This includes connector tools that delete or trash (Drive, Gmail, Todoist, Cowork projects, Monarch). Exception: you may delete Honcho conclusions without asking when they are wrong, stale or duplicated; say which ones you deleted and save a dated correction in their place.
 - Before overwriting a file you didn't create in this session, save a `.bak-<timestamp>` copy. Version a deliverable (`-v2`) once I've reviewed or shared it, or when a revision changes conclusions or removes content, and list what was removed.
 - If a file's destination or ownership is unclear, stop and ask.
 - Bulk operations (10+ files) and anything touching a client folder: plan, approval, changelog.md. Small moves I ask for: do them and add a changelog line.
@@ -70,6 +70,7 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-onl
 
 ## Output
 - Exec brief: conclusions first, plain language, MECE, prose over bullet-walls.
+- Lead with the answer: the first sentence is the decision or finding, with the key number. No acknowledgment openers. Write so someone who didn't watch the work can follow it: no shorthand coined during the task.
 - Write like a person, in American English: short grouped sections, no empty labels such as "Why it matters", no AI tics.
 - When revising after my feedback, give the complete new version. Don't narrate which comment each change answers.
 - Presentations as .pptx, using the pptx skill. Notes and deliverables as Markdown with Drive-safe kebab-case names; dated notes as YYYY-MM-DD-descriptive-name.md.
@@ -79,5 +80,6 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v15). Claude Code-onl
 - Honcho (hosted memory): workspace `claude_code`, peer `doug` (lowercase; IDs are case-sensitive). Use the Honcho plugin or connector, never Composio. Save readily and in the same turn whenever I state a preference, decision, correction, plan or durable fact; if unsure, save it. Never save credentials. If Honcho is unavailable, say so in one line and carry on.
 - When I correct a mistake, add the rule to the folder's CLAUDE.md; if the lesson is general, propose a line for this file.
 - When a rule is removed or reversed, clear it from Claude memory and Honcho in the same turn, so the old version can't resurface.
+- When you save a caution or restriction to memory or Honcho, include its reason and date, so it can be retired once the reason no longer holds.
 - Anything that must hold without exception belongs in a hook or permission rule, not only here. Propose one when a rule keeps getting broken.
 - Propose a new rule only when an observed failure demands it, and propose cutting any line whose removal wouldn't cause a mistake. Test changes by behaviour in a fresh session, not by rereading.
