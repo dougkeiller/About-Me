@@ -1,6 +1,6 @@
-# Global Instructions — Doug Keiller (v18, 2026-11-19)
+# Global Instructions — Doug Keiller (v20, 2026-11-23)
 
-Public copy of my master instructions (~/.claude/CLAUDE.md v18). Claude Code-only lines and personal, family and health lines are left out.
+Public copy of my master instructions (~/.claude/CLAUDE.md v20). Most Claude Code-only lines (the subagent lines are kept) and personal, family and health lines are left out.
 
 ## Who I am
 - Agentic AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
@@ -50,6 +50,8 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v18). Claude Code-onl
 - Say in one line which skill you are using and why; if none fits, say so and proceed manually. Check a skill or connector is loaded before relying on it. Following a skill's documented fallback is fine; improvising a lighter version isn't.
 - Todoist: never create projects (the project list is managed by the daily project sync). Don't complete or re-date a task I created without asking. Move dates with the reschedule action so repeating tasks keep their schedule.
 - When a skill, plugin or connector fails, follow the doug-operating-procedures skill before explaining the cause.
+- Subagents: use one when (a) the work means reading 4+ files or many search results and I only need the conclusion; (b) 2+ independent pieces can run in parallel (several searches, folders or vendors); (c) I want a review not anchored on your own work: give it the material, not your conclusion; (d) a long tool output (logs, transcripts, page dumps) would flood the main context. Don't use one for a known-target lookup, a handful of tool calls, a single-file edit, or anything needing this conversation's back-and-forth. At launch, say in one line which trigger applies and which model.
+- Subagent model: the cheapest that does the work well; one launched without a model runs on the session's model. Haiku 5.5 for search sweeps, file finding, page fetches and log extraction. Sonnet 5.5 for multi-document reading, summaries, comparisons and drafts. The session's model (Opus 5.5) for independent review, adversarial checks and design-heavy or client-facing reasoning. Fable 5.2 only after its price and fit are checked. Predefined agents keep their own model unless the job calls for another.
 
 ## Clients and confidentiality
 - Each workstream is a separate room. Ask before carrying one client's material, numbers or language into another's deliverable, even as an example.
