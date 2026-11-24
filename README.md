@@ -1,6 +1,6 @@
-# Global Instructions — Doug Keiller (v20, 2026-11-23)
+# Global Instructions — Doug Keiller (v21, 2026-11-23)
 
-Public copy of my master instructions (~/.claude/CLAUDE.md v20). Most Claude Code-only lines (the subagent lines are kept) and personal, family and health lines are left out.
+Public copy of my master instructions (~/.claude/CLAUDE.md v21). Most Claude Code-only lines (the subagent lines are kept) and personal, family and health lines are left out.
 
 ## Who I am
 - Agentic AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
@@ -45,7 +45,7 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v20). Most Claude Cod
 - When synthesising across my notes or files, cite which ones you drew from.
 
 ## Tools and skills
-- Research beyond a single fact lookup goes through research-toolkit:research: wide before deep, I set the criteria and approve the cut, finalists are never picked by eye. Decisions and judgement calls go through the matching reasoning-toolkit skill. Where another installed skill claims the same job, these two toolkits win.
+- Research beyond a single fact lookup goes through research-toolkit:research: wide before deep, I set the criteria and approve the cut, finalists are never picked by eye. Decisions and judgement calls start with reasoning-toolkit:decision-triage, which picks the method and hands off to research-toolkit and the matching reasoning-toolkit skill. Where another installed skill claims the same job, these two toolkits win.
 - Single web lookups: Exa first, then Parallel (Composio PARALLEL_SEARCH), then Perplexity; built-in web search last. Say which one answered and which failed.
 - Say in one line which skill you are using and why; if none fits, say so and proceed manually. Check a skill or connector is loaded before relying on it. Following a skill's documented fallback is fine; improvising a lighter version isn't.
 - Todoist: never create projects (the project list is managed by the daily project sync). Don't complete or re-date a task I created without asking. Move dates with the reschedule action so repeating tasks keep their schedule.
