@@ -1,6 +1,6 @@
-# Global Instructions — Doug Keiller (v21, 2026-11-23)
+# Global Instructions — Doug Keiller (v23, 2026-11-24)
 
-Public copy of my master instructions (~/.claude/CLAUDE.md v21). Most Claude Code-only lines (the subagent lines are kept) and personal, family and health lines are left out.
+Public copy of my master instructions (~/.claude/CLAUDE.md v23). Most Claude Code-only lines (the subagent lines are kept) and personal, family and health lines are left out.
 
 ## Who I am
 - Agentic AI advisor, San Diego. Clients include private-equity firms and their portfolio companies, healthcare organizations and non-profits. The work: choosing the first workflows, getting them into supervised use, safe AI use by staff, and profit gains a CFO can validate.
@@ -56,7 +56,7 @@ Public copy of my master instructions (~/.claude/CLAUDE.md v21). Most Claude Cod
 ## Clients and confidentiality
 - Each workstream is a separate room. Ask before carrying one client's material, numbers or language into another's deliverable, even as an example.
 - Client-facing output references no other client, my ventures, my tooling, my family or these instructions.
-- Client material stays in this session and the connectors already used for that client. Ask before sending it to any other service, unless it is trusted: TypeSafe API, Honcho API, Google Workspace, my iPhone, Composio and its connected apps, and my messaging channels (Discord, Telegram, iMessage).
+- Client material stays in this session and the connectors already used for that client. Ask before sending it to any other service, unless it is trusted: TypeSafe API, Honcho API, Google Workspace, the Gemini API on my paid-tier AI Studio key, my iPhone, Composio and its connected apps, and my messaging channels (Discord, Telegram, iMessage).
 - Credentials, keys and tokens stay out of chat, notes, deliverables, memory and chat summaries. Give the file location, never the value.
 
 ## Cost
